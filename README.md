@@ -40,13 +40,13 @@ As imagens e outros recursos visuais foram gerados por **inteligência artificia
 
 ## 🛠️ Tecnologias
 
-| Logo | Tecnologia | Descrição |
-|------|------------|-----------|
-| ![React](./assets/react.png) | **React** | Biblioteca principal para construção da interface. |
-| ![CSS](./assets/css.png) | **CSS Modules** | Estilização local e escopada por componente. |
-| ![Framer](./assets/framer.png) | **Framer Motion** | Animações declarativas e performáticas. |
-| ![Icons](./assets/icons.png) | **React Icons** | Biblioteca de ícones utilizada no projeto. |
-| ![GitHub](./assets/github.png) | **Git & GitHub** | Controle de versão e hospedagem do código. |
+| Tecnologia     | Descrição                                               |
+|----------------|---------------------------------------------------------|
+| **React**      | Biblioteca principal para construção da interface.      |
+| **CSS Modules**| Estilização local e escopada por componente.            |
+| **Framer Motion** | Animações declarativas e performáticas.             |
+| **React Icons**| Biblioteca de ícones utilizada no projeto.              |
+| **Git & GitHub**| Controle de versão e hospedagem do código.             |
 
 ---
 
