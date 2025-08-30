@@ -23,7 +23,7 @@ As imagens e outros recursos visuais foram gerados por **inteligência artificia
 
 ## ✨ Demonstração
 
-🔗 **Deploy Online**: [Adicione aqui o link do deploy]  
+🔗 **Deploy Online**: [Clique aqui!](https://landing-page-coach-carreira.vercel.app/) 
 
 ---
 
