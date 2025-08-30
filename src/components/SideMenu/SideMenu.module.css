@@ -1,0 +1,60 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sideMenu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 280px;
+    height: 100%;
+    background-color: var(--background-secondary);
+    z-index: 1002;
+    padding: 2rem;
+    transition: right 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    display: flex;
+    flex-direction: column;
+}
+
+.sideMenu.open {
+    right: 0;
+}
+
+.closeIcon {
+    font-size: 1.8rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+}
+
+.menuLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menuLinks a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+}

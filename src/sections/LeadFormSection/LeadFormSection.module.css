@@ -1,0 +1,84 @@
+.leadFormSection {
+    padding: 6rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background-color: var(--background-primary);
+}
+
+.ebookContainer {
+    flex: 1;
+    max-width: 400px;
+}
+
+.ebookCover {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer {
+    flex: 1;
+    max-width: 500px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    color: var(--text-primary);
+}
+
+.input::placeholder {
+    color: var(--text-secondary);
+}
+
+.submitButton {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: var(--primary-color-dark);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .leadFormSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .ebookContainer {
+        max-width: 250px;
+        margin-bottom: 2rem;
+    }
+}

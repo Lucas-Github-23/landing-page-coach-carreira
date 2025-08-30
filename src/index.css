@@ -1,13 +1,57 @@
-body {
+/* Reset CSS */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variáveis de Tema */
+body {
+  /* Fontes */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Montserrat', sans-serif;
+  
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Tema Claro */
+body.light {
+  --primary-color: #0d47a1; /* Azul Marinho */
+  --primary-color-dark: #002171;
+  --primary-gradient: linear-gradient(45deg, #0d47a1, #1e88e5);
+  --accent-color: #ffd700; /* Dourado */
+  --background-primary: #f8f9fa; /* Branco levemente acinzentado */
+  --background-secondary: #ffffff;
+  --background-primary-translucent: rgba(248, 249, 250, 0.85);
+  --text-primary: #212529; /* Preto suave */
+  --text-secondary: #6c757d; /* Cinza */
+  --border-color: #dee2e6;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  --bg-image-opacity: 0.15;
+}
+
+/* Tema Escuro */
+body.dark {
+  --primary-color: #42a5f5; /* Azul mais claro */
+  --primary-color-dark: #1e88e5;
+  --primary-gradient: linear-gradient(45deg, #1e88e5, #64b5f6);
+  --accent-color: #ffca28; /* Dourado mais claro */
+  --background-primary: #121212;
+  --background-secondary: #1e1e1e;
+  --background-primary-translucent: rgba(18, 18, 18, 0.85);
+  --text-primary: #e0e0e0; /* Branco suave */
+  --text-secondary: #a0a0a0; /* Cinza claro */
+  --border-color: #3a3a3a;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --bg-image-opacity: 0.07;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+html {
+  scroll-behavior: smooth;
 }
