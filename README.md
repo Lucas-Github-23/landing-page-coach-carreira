@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 💼 Landing Page - Coach de Carreira
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Uma landing page moderna e profissional para uma Coach de Carreira, focada na captura de leads.  
+Projeto construído com React, totalmente responsivo e utilizando as melhores práticas de desenvolvimento.
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="#-aviso-importante"><strong>Aviso</strong></a> ·
+  <a href="#-demonstração"><strong>Demonstração</strong></a> ·
+  <a href="#-features"><strong>Features</strong></a> ·
+  <a href="#-tecnologias"><strong>Tecnologias</strong></a>
+</p>
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ⚠️ Aviso Importante
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto é um **protótipo** desenvolvido para fins de estudo e portfólio.  
+As imagens e outros recursos visuais foram gerados por **inteligência artificial (Google Gemini)** e servem apenas como **placeholders** para demonstrar o design e a estrutura do site.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Demonstração
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 **Deploy Online**: [Adicione aqui o link do deploy]  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🎨 **Tema Claro e Escuro**: seletor de tema com persistência para conforto visual e acessibilidade.  
+- 📱 **Design 100% Responsivo**: experiência fluida em desktop, tablet e mobile.  
+- 🎬 **Animações com Framer Motion**: efeitos sutis de fade-in e slide-in ao rolar a página.  
+- 📧 **Captura de Leads com Google Forms**: integração funcional para receber contatos em planilha, sem backend.  
+- 🏗️ **Arquitetura Escalável**: componentes, hooks e contextos bem organizados para fácil manutenção.  
+- 💅 **Estilização com CSS Modules**: estilos escopados, evitando conflitos de classes.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Logo | Tecnologia | Descrição |
+|------|------------|-----------|
+| ![React](./assets/react.png) | **React** | Biblioteca principal para construção da interface. |
+| ![CSS](./assets/css.png) | **CSS Modules** | Estilização local e escopada por componente. |
+| ![Framer](./assets/framer.png) | **Framer Motion** | Animações declarativas e performáticas. |
+| ![Icons](./assets/icons.png) | **React Icons** | Biblioteca de ícones utilizada no projeto. |
+| ![GitHub](./assets/github.png) | **Git & GitHub** | Controle de versão e hospedagem do código. |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👨‍💻 Desenvolvido por
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Lucas Gabriel**  
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- GitHub: [@Lucas-Github-23](https://github.com/Lucas-Github-23)  
+- LinkedIn: [Lucas Gabriel](https://www.linkedin.com)
